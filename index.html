@@ -13,14 +13,54 @@
       width: 100%;
       height: auto;
       display: block;
-      margin-top: 40px;
+      margin-top: 20px;
     }
+  
+
+    .button-container {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .apply-button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 90%;
+      max-width: 500px;
+      height: 70px;
+      text-decoration: none;
+      font-family: Georgia, 'Times New Roman', serif;
+      font-weight: bold;
+      font-size: clamp(20px, 4vw, 32px);
+      letter-spacing: 3px;
+      color: #333;
+      background-color: #d9d9d9;
+      border: 2px solid #555;
+      border-radius: 4px;
+      transition: all 0.3s ease;
+    }
+
+    .apply-button:hover {
+      background-color: #bfbfbf;
+      color: #000;
+      border-color: #333;
+    }
+
   </style>
 </head>
 <body>
 
 <!-- Use an <img> tag to preserve full image, aspect ratio, and responsiveness -->
 <img src="header.png" alt="" class="header-image">
+
+
+
+<div class="button-container">
+  <a href="https://form.jotform.com/your-form-id" target="_blank" class="apply-button">APPLY NOW</a>
+</div>
 
 </body>
 </html>
